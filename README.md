@@ -44,7 +44,9 @@ Navigate to the folder in `CMD` or `Terminal` and run `docker-compose up -d --bu
 
 ### Local
 
-Navigate to the root folder and run `python gamedeals_bot.py`.
+1. Navigate to the root folder.
+2. Run `pip install -r requirements.txt`
+3. Run `python gamedeals_bot.py`.
 
 ## Release History
 

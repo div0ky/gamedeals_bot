@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - Only posting once per hour
 
+## [0.3] 2020-05-12
+
+### Added
+- Bot now prints to console when it's checking for posts, etc.
+
 ## [0.2] 2020-05-12
 
 ### Added

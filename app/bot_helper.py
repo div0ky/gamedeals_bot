@@ -20,6 +20,7 @@ class BotHelper:
 
     async def get_new_posts(self, num_of_deals: int = config.REDDIT_NUMBER_OF_DEALS,
                             sub_name: str = 'GameDeals') -> list:
+        print(f"Fetching latest posts from GameDeals.")
         sub_reddit = self.reddit.subreddit(sub_name).new(limit=num_of_deals)
         game_deals = [x for x in sub_reddit]
         return game_deals
@@ -48,6 +49,8 @@ class BotHelper:
                         print(f"Deal {deal.title} has been added to the database.")
                 else:
                     print(f"Deal <{deal.title}> is already in the database.")
+            else:
+                print(f"No FREE deals were found in latest scrape.")
 
     @staticmethod
     def get_unannounced_deals() -> list:

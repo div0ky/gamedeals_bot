@@ -1,0 +1,6 @@
+discord.py==1.0.1
+peewee==3.13.3
+editdistance==0.5.3
+praw==7.0.0
+discord==1.0.1
+urltools==0.3.2

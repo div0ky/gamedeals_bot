@@ -4,5 +4,6 @@ services:
     build: .
     image: gamedeals_bot:latest
     container_name: gamedeals_bot
+    restart: unless-stopped
     volumes:
       - .:/app

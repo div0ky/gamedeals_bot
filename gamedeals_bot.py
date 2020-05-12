@@ -35,8 +35,8 @@ class GameDealsClient(discord.Client):
         if message.content == config.DISCORD_PREFIX + "info":
             description = "DivDeals is a Reddit scraping bot that alerts you of FREE game deals."
             embed = discord.Embed(title=f'{config.DISCORD_BOT_NAME} Info', description=description, color=0x2df228) \
-                .add_field(name='Developed by', value='[div0ky](https://github.com/div0ky)') \
-                .add_field(name='Source', value='[Github](https://github.com/div0ky/gamedeals_bot)')
+                .add_field(name='Developed by', value='[div0ky](http://short.div0ky.com/FEtyp5)') \
+                .add_field(name='Source', value='[Github](http://short.div0ky.com/vgd3km)')
             await message.channel.send(embed=embed)
             await message.delete()
         # If a user sends a message with the defined prefix + 'help'

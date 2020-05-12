@@ -13,4 +13,4 @@ COPY . ./app
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED=1
 
-CMD python div_deals.py
+CMD python gamedeals_bot.py

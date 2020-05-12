@@ -7,12 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - Only posting once per hour
 
-## [0.2] 20-05-12
+## [0.2] 2020-05-12
 
 ### Added
 - Bot now checks title similarity. If a title is >= 86.7% match to any title in the database, it will consider it a duplicate.
 
-## [0.1] - 20-05-10
+## [0.1] - 2020-05-10
 
 ### Added
 - Initial Upload of first working version

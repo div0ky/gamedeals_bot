@@ -1,9 +1,10 @@
 version: '3.7'
 services:
   GameDeals:
-    build: .
-    image: gamedeals_bot:latest
+#    build: .
+#    image: gamedeals_bot:latest
+    image: div0ky/gamedeals_bot:latest
     container_name: gamedeals_bot
     restart: unless-stopped
-    volumes:
-      - .:/app
+#    volumes:
+#      - .:/app

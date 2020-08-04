@@ -24,6 +24,8 @@ class GameDealsClient(discord.Client):
         """
         print(f"Logged in as {self.user}.")
         self.post_things = self.loop.create_task(self.post_new_deals())
+        await self.change_presence(status=discord.Status.online,
+                                     activity=discord.Activity(name='Looking for good deals!'))
 
     async def on_message(self, message: discord.message) -> None:
         """

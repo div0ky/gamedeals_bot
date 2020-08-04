@@ -1,6 +1,6 @@
 from peewee import *
 
-db = SqliteDatabase('deals.db')
+db = SqliteDatabase('database/deals.db')
 
 class Deal(Model):
     title = CharField()

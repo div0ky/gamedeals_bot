@@ -2,13 +2,13 @@ FROM python:3.8-slim-buster
 
 MAINTAINER div0ky "me@div0ky.com"
 
-WORKDIR /app
+WORKDIR /
 
 COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
-COPY . ./app
+ADD . /
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED=1
